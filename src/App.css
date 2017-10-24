@@ -36,24 +36,36 @@
 }
 
 .cuntdwn__days{
-  border: 1px solid #fff;
+  border: 3px solid #ffc107;
   padding: 10px;
   margin: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 .cuntdwn__hours{
-  border: 1px solid #fff;
+  border: 3px solid #ffc107;
   padding: 10px;
   margin: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 .cuntdwn__minutes{
-  border: 1px solid #fff;
+  border: 3px solid #ffc107;
   padding: 10px;
   margin: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
 }
-.cuntdwn__secends{
-  border: 1px solid #fff;
+.cuntdwn__seconds{
+  border: 3px solid #ffc107;
   padding: 10px;
   margin: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 .set__date{
@@ -63,4 +75,14 @@
 
 .set__date .form-control{
   height: 40px;
+}
+
+.set__date .btn{
+  border: 1px solid #FFF;
+  padding: 8px 25px;
+  border-radius: 0px;
+  margin-top: 10px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
 }

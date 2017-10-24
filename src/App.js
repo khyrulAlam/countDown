@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
-
 import Timer from './timer';
 
+
 class App extends Component{
+
 
   constructor(props){
     super(props);
 
     this.state = {
-      endPoint: '03 November 2018',
+      endPoint: '03 November 2017',
       setDate: ''
     }
   }
@@ -33,7 +34,9 @@ class App extends Component{
                 <span>End Point:</span> {this.state.endPoint}
               </div>
 
-              <Timer/>
+              <Timer 
+                endPoint={this.state.endPoint}
+              />
 
             </div> { /* Col-md-12 */}
 
