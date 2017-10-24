@@ -1,0 +1,66 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css";
+
+
+.cuntdwn__App{
+  background: #ff3e4f;
+  padding: 3rem 0px;
+  text-align: center;
+  min-height: 800px;
+}
+
+.cuntdwn__App h2{
+  font-size: 4rem;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.57);
+  margin-bottom: 3rem;
+}
+
+.cuntdwn__point{
+  font-weight: 600;
+  color: #FFF;
+  font-size: 40px;
+  font-family: monospace;
+  margin-bottom: 3rem;
+}
+.cuntdwn__point span{
+  font-family: inherit;
+  text-transform: uppercase;
+  color: #1b1e21;
+}
+
+.cuntdwn__timer{
+  margin-top: 15px;
+  font-family: monospace;
+  color: #FFF;
+  margin-bottom: 30px;
+}
+
+.cuntdwn__days{
+  border: 1px solid #fff;
+  padding: 10px;
+  margin: 15px;
+}
+.cuntdwn__hours{
+  border: 1px solid #fff;
+  padding: 10px;
+  margin: 15px;
+}
+.cuntdwn__minutes{
+  border: 1px solid #fff;
+  padding: 10px;
+  margin: 15px;
+}
+.cuntdwn__secends{
+  border: 1px solid #fff;
+  padding: 10px;
+  margin: 15px;
+}
+
+.set__date{
+  width: 43%;
+  margin: 0px auto;
+}
+
+.set__date .form-control{
+  height: 40px;
+}
