@@ -1,4 +1,4 @@
-# React Count Down App
+# React CountDown App
 
 ![Screenshot](http://khyrulalam.website/img/rApp.png)
 
