@@ -58,7 +58,7 @@ class App extends Component{
             <div className="col-md-12">
 
               <div className="set__date">
-                <input onChange={ event => this.setState({setDate: event.target.value })} type="text" className="form-control" placeholder="Set Date" />
+                <input onChange={ event => this.setState({setDate: event.target.value })} type="text" className="form-control" placeholder="DD MM YYYY" />
                 
                 <button onClick={()=> this.onSetDate() } className="btn btn-default">Submit</button>
               
