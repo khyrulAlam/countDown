@@ -16,7 +16,20 @@ class App extends Component{
   }
 
   onSetDate(){
-    this.setState({endPoint: this.state.setDate});
+
+    var blank = this.state.setDate;
+    var today = Date.parse(new Date());
+    var setD = Date.parse(this.state.setDate);
+
+    if(blank === ''){
+      alert('Please Insert A Date');
+    }else if(today >= setD){
+      alert('Please Insert A Future Date Not Previous Date');
+    }else if(isNaN(setD)){
+      alert('Please Insert A Valid Date');
+    }else{
+      this.setState({endPoint: this.state.setDate}); 
+    }
   }
 
 
